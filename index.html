@@ -1,18 +1,12 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-	<meta name="google-site-verification" content="0X2xNT--X4v06Dfj-s3aUfHIku-ZC_QR-6bn3AU2K8A" />
-    <title>青莲居 by qlings</title>
-  </head>
+---
+layout: default
+---
 
-  <body>
-    <header>
-      <div class="inner">
-        <h1>青莲居</h1>
-        <h2>青莲的博客</h2>
-      </div>
-    </header>
-  </body>
-</html>
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
