@@ -1336,6 +1336,36 @@ pre .javascript .function {
   margin-left: 15px;
   list-style: disc;
 }
+.aboutme {
+  color: #00f;
+  text-shadow: 0 1px #fff;
+  background: #ddd;
+  -webkit-box-shadow: 0 -1px 4px #ccc inset;
+  box-shadow: 0 -1px 4px #ccc inset;
+  border: 1px solid #ccc;
+  padding: 15px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.aboutme a {
+  color: #258fb8;
+  text-decoration: none;
+}
+.aboutme a:hover {
+  text-decoration: underline;
+}
+.aboutme ul ul,
+.aboutme ol ul,
+.aboutme dl ul,
+.aboutme ul ol,
+.aboutme ol ol,
+.aboutme dl ol,
+.aboutme ul dl,
+.aboutme ol dl,
+.aboutme dl dl {
+  margin-left: 15px;
+  list-style: disc;
+}
 .widget {
   line-height: 1.6em;
   word-wrap: break-word;
