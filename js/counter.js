@@ -1,7 +1,7 @@
 (function($) { 
    $.ajax({
         type     : "GET",
-        url      : 'http://qlings.github.io/',
+        url      : 'http://1.qling.sinaapp.com/',
         success  : function(data) {
                     $("#counterValue").text(data);
                    },
