@@ -391,7 +391,8 @@ body {
   margin-left: -15px;
 }
 .nav-icon,
-.main-nav-link {
+.main-nav-link,
+.aboutme-icon {
   float: left;
   color: #fff;
   opacity: 0.6;
@@ -405,7 +406,8 @@ body {
   padding: 20px 15px;
 }
 .nav-icon:hover,
-.main-nav-link:hover {
+.main-nav-link:hover,
+.aboutme-icon:hover {
   opacity: 1;
 }
 .nav-icon {
@@ -1337,34 +1339,38 @@ pre .javascript .function {
   list-style: disc;
 }
 .aboutme {
-  color: #00f;
-  text-shadow: 0 1px #fff;
+  color: #000;
+/*text-shadow: 0 1px #fff  文字阴影*/
   background: #ddd;
   -webkit-box-shadow: 0 -1px 4px #ccc inset;
   box-shadow: 0 -1px 4px #ccc inset;
   border: 1px solid #ccc;
-  padding: 15px;
+  padding: 16px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
 .aboutme a {
-  color: #258fb8;
+  color: #f00;
   text-decoration: none;
 }
-.aboutme a:hover {
-  text-decoration: underline;
+.aboutme-icon {
+  font-family: FontAwesome;
+  text-align: center;
+  font-size: 25px;
+  width: 16px;
+  height: 16px;
+  padding: 10px 20px;
+  position: relative;
+  cursor: pointer;
 }
-.aboutme ul ul,
-.aboutme ol ul,
-.aboutme dl ul,
-.aboutme ul ol,
-.aboutme ol ol,
-.aboutme dl ol,
-.aboutme ul dl,
-.aboutme ol dl,
-.aboutme dl dl {
-  margin-left: 15px;
-  list-style: disc;
+#ico-google:before {
+  content: "\f0d5";
+}
+#ico-github:before {
+  content: "\f09b";
+}
+#ico-qling:before {
+  content: "\f06c";
 }
 .widget {
   line-height: 1.6em;
